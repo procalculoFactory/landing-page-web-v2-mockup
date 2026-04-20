@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soporte SAC | Prueba Landing Page Procalculo</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="soporte">
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="./index.html"><img src="./assets/images/logo-procalculo.png" alt="Procalculo"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav">
+      <a href="./index.html" data-nav="inicio">Inicio</a>
+      <a href="./soluciones.html" data-nav="soluciones">Soluciones</a>
+      <a href="./industrias.html" data-nav="industrias">Industrias</a>
+      <a href="./quienes-somos.html" data-nav="quienes-somos">Nosotros</a>
+      <a href="./soporte.html" data-nav="soporte">Soporte SAC</a>
+      <a class="nav-button" href="./index.html#contacto">Contáctenos</a>
+    </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="page-hero">
+      <div class="reveal">
+        <p class="eyebrow">Soporte SAC</p>
+        <h1>Soporte SAC</h1>
+        <p>Canal de atencion para solicitudes, preguntas, entregas, cotizaciones, sugerencias y requerimientos de soporte geoespacial.</p>
+      </div>
+      <div class="page-hero-art reveal">
+        <img src="./public/Planeta_tierra.png" alt="Planeta tierra">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="support-layout">
+        <div class="support-card support-form-card reveal">
+          <div class="support-form-heading">
+            <p class="eyebrow">Formulario SAC</p>
+            <h2>Cuéntenos qué necesita</h2>
+            <p>Complete la información y nuestro equipo revisará su solicitud para darle continuidad por el canal correspondiente.</p>
+          </div>
+          <form class="support-form" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+            <input type="hidden" name="orgid" value="00D5w000000WYgP">
+            <input type="hidden" name="retURL" value="">
+            <div class="form-grid">
+              <label><span>Programa</span><select id="program" name="00N5w00000RndJr"><option value="000 - General">000 - General</option><option value="001 - Colombia Compra Eficiente">001 - Colombia Compra Eficiente</option><option value="002 - Agencia de Innovacion de Gobierno">002 - Agencia de Innovacion de Gobierno</option></select></label>
+              <label><span>Tipo de solicitud</span><select id="type" name="type"><option value="">--Ninguno--</option><option value="Calidad de vida y bienestar laboral">Calidad de vida y bienestar laboral</option><option value="Demos y cotizaciones">Demos y cotizaciones</option><option value="Desempeno y desarrollo de competencias">Desempeno y desarrollo de competencias</option><option value="Entregas">Entregas</option><option value="Escucha efectiva">Escucha efectiva</option><option value="Feature Request">Funcionalidad requerida</option><option value="Gestion Administrativa Laboral">Gestion Administrativa Laboral</option><option value="Pagos y cobros">Pagos y cobros</option><option value="Question">Pregunta</option><option value="Quejas y reclamos">Quejas y reclamos</option><option value="Sugerencias">Sugerencias</option><option value="Juridica">Juridica</option><option value="Calidad">Calidad</option><option value="Bienestar">Bienestar</option><option value="Otro">Otro</option></select></label>
+              <label><span>Nombre del contacto</span><input id="name" maxlength="80" name="name" required type="text"></label>
+              <label><span>Asunto</span><input id="subject" maxlength="80" name="subject" type="text"></label>
+              <label><span>Empresa</span><input id="company" maxlength="80" name="company" type="text"></label>
+              <label><span>Correo electronico</span><input id="email" maxlength="80" name="email" required type="email"></label>
+              <label><span>Telefono</span><input id="phone" maxlength="40" name="phone" type="text"></label>
+              <label class="full-width"><span>Descripcion</span><textarea name="description" required rows="6"></textarea></label>
+            </div>
+            <label class="checkbox-row">
+              <input id="00N8W00000P7KGv" name="00N8W00000P7KGv" required type="checkbox" value="1">
+              <span>Acepto politica de tratamiento de datos personales</span>
+            </label>
+            <div class="form-actions">
+              <input class="button button-primary" type="submit" name="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+        <aside class="support-card support-visual reveal">
+          <img src="./public/Planeta_tierra.png" alt="Planeta tierra">
+          <p>Conozca como la <strong>tecnologia geoespacial</strong> puede transformar su negocio.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="soporte">
+    <div class="shell footer-grid">
+      <div>
+        <img class="footer-logo" src="./assets/images/footer/logo-footer.png" alt="Procalculo logo">
+        <ul class="social-list">
+          <li><a href="#" aria-label="LinkedIn"><img src="./assets/images/social/linkedin.png" alt="LinkedIn"></a></li>
+          <li><a href="#" aria-label="Instagram"><img src="./assets/images/social/instagram.png" alt="Instagram"></a></li>
+          <li><a href="#" aria-label="WhatsApp"><img src="./assets/images/social/whatsapp.png" alt="WhatsApp"></a></li>
+          <li><a href="#" aria-label="X"><img src="./assets/images/social/x.png" alt="X"></a></li>
+          <li><a href="#" aria-label="Facebook"><img src="./assets/images/social/facebook.png" alt="Facebook"></a></li>
+          <li><a href="#" aria-label="YouTube"><img src="./assets/images/social/youtube.png" alt="YouTube"></a></li>
+          <li><a href="#" aria-label="TikTok"><img src="./assets/images/social/tiktok.png" alt="TikTok"></a></li>
+          <li><a href="#" aria-label="Correo"><img src="./assets/images/social/correo.png" alt="Correo"></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Recursos</h3>
+        <a href="./tratamiento-datos.html">Política de tratamiento de <br>datos personales</a>
+        <a href="./soporte.html">PQRS</a>
+        <p><b>+57 (601) 7451145</b></p>
+      </div>
+
+      <div>
+        <h3>Soluciones</h3>
+        <ul>
+          <li>Imágenes satelitales</li>
+          <li>Modelos de elevación *Mapas.co</li>
+          <li>Análisis multitemporal</li>
+          <li>Servicios profesionales</li>
+        </ul>
+        <p><b>CL. 90 #13a - 20, Bogotá</b></p>
+      </div>
+    </div>
+
+    <div class="shell report-line">
+      <p>Si va a reportar una actividad sospechosa comuníquese al correo <b>cumplimiento@procalculo.com</b></p>
+    </div>
+
+    <div class="shell footer-bottom">
+      <p><strong>&copy;2026 Procalculo Prosis SAS</strong></p>
+      <img src="./assets/images/footer/banderas.png" alt="Banderas de países">
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
